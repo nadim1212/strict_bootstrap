@@ -1,0 +1,553 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+nav ul{
+	float:right;
+	margin-top:5px;
+}
+nav ul li{
+	display:inline-block;
+	padding:0 10px;
+}
+nav ul li a{
+	color:#2c364b;
+	font-weight:700;
+	text-decoration:none;
+	transition:all;
+	transition-duration:0.5s;
+}
+ /*nav ul li a:hover{
+	color:#48baff;
+}*/
+/*----------MAIN SECTION--------*/
+
+#mainpart{
+	background:url(../images/mainbg.jpg) no-repeat center;
+	display:block;
+	min-height:897px;
+	background-size:cover;
+	text-align:center;
+}
+#mainpart h2{
+	font-size:120px;
+	color:#ffffff;
+	font-weight:700;
+	margin:283px 0 5px;
+}
+#mainpart span.line{
+	line-height:2px;
+	background:#15a4fa;
+	display:block;
+	width:600px;
+	margin:0 auto;
+}
+#mainpart p{
+	font-size:20px;
+	line-height:47px;
+	color:#ffffff;
+	margin:25px 0 55px;
+	font-family: 'Lato', sans-serif;
+}
+#mainpart .callbtn{
+	background:none;
+	border: 1px solid #15a4fa;
+	color:#ffffff;
+	font-size:18px;
+	height:55px;
+	width:180px;
+	border-radius:3px;
+}
+#mainpart .callbtn:hover{
+	background:#2d3950;
+	border: 1px solid #fff;
+	color:#fff;
+	font-size:18px;
+	height:55px;
+	width:180px;
+	border-radius:3px;
+	transition:all;
+	transition-duration: 1s;
+}
+
+/*----------SIMPLE & PURE DESIGN-------*/
+
+#mainpart a.arrow{
+	display:block;
+	margin-top:173px;
+}
+
+#simple{
+	padding:70px 0 100px;
+	text-align:center;
+	background:#f6f9f9;
+}
+#simple h3{
+	font-size:41px;
+	color:#2d3950;
+}
+#simple p{
+	font-size:20px;
+	line-height:32px;
+	margin:17px 30px 0;
+}
+/*----------THREE COLOUMN--------*/
+
+#threecol{
+	padding:65px 0;
+}
+#threecol figure {
+	text-align:center;
+}
+#threecol figure figcaption h4 {
+	font-size:22px;
+	color:#2d3950;
+	margin:20px 0 10px;
+}
+#threecol figure figcaption p {
+	font-size:15px;
+	line-height:22px;
+	margin:0 25px;
+}
+
+/*----------GALLARY--------*/
+#gallary{
+	padding:75px 0 115px;
+	background:#f6f9f9;
+	text-align:center;
+}
+#gallary .threeimg{
+	margin-bottom:30px;
+}
+#gallary h3{
+	font-size:41px;
+	color:#2d3950;
+}
+#gallary p{
+	font-size:15px;
+	line-height:23px;
+	color:#909090;
+	margin:15px 0 75px;
+}
+.effects .img img {
+  display: block;
+  width: 360px;
+  height: 260px;
+  margin-bottom:30px;
+}
+
+/*----------STAY WITH US--------*/
+#contact{
+	background:url(../images/staybg.jpg) no-repeat center;
+	display:block;
+	background-size:cover;
+	min-height:700px;
+	text-align:center;
+	padding:70px 0 105px;
+}
+#contact h3{
+	font-size:41px;
+	color:#ffffff;
+}
+#contact p{
+	font-size:15px;
+	line-height:23px;
+	color:#999999;
+	margin:15px 40px;
+}
+#contact form input[type="text"]{
+	height:60px;
+	width:535px;
+	display:block;
+	margin:0 auto 20px;
+	background:none;
+	border:1px solid #999999;
+	border-radius:3px;
+	padding-left:20px;	
+	transition:all;
+	transition-duration:0.5s;
+}
+/*#contact form input[type="text"]:hover, #contact form input[type="text"]:focus{
+	border:1px solid #15a4fa;
+}*/
+#contact form textarea{
+	height:160px;
+	width:535px;
+	background:none;
+	border:1px solid #999999;
+	border-radius:3px;
+	padding-left:20px;
+	padding-top:25px;
+	display:block;
+	margin:0 auto 10px;
+	transition:all;
+	transition-duration:0.5s;
+}
+/*#contact form textarea:hover, #contact form textarea:focus{
+	border:1px solid #15a4fa;
+}*/
+#contact .submit{
+	width:535px;
+	margin:0 auto;
+	text-align:left;
+	color:#ffffff;
+}
+#contact .submit input[type="checkbox"]{
+	margin:30px 10px 0 0;
+}
+#contact .submit input[type="submit"]{
+	float:right;
+	height:47px;
+	width:140px;
+	background:none;
+	border:1px solid #15a4fa;
+	margin-top:10px;
+	border-radius:3px;
+}
+#contact .submit input[type="submit"]:hover{
+	border:1px solid #000;
+	background:#fff;
+	color:#000;
+	transition:all;
+	transition-duration: 0.5s;
+}
+
+/*----------FOOTER--------*/
+footer{
+	padding:25px 0;
+}
+/* SOCIAL FONT PATH */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+.fa-facebook:before {
+  content: "\f09a";
+}
+.fa-twitter:before {
+  content: "\f099";
+}
+.fa-google-plus:before {
+  content: "\f0d5";
+}
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+
+footer p{
+	margin-top:10px;
+}
+footer p a{
+	color:#999999;
+}
+footer p a:hover{
+	color:#48baff;
+}
+footer .social{
+	text-align:right;	
+}
+footer .social a{
+	height:40px;
+	width:40px;
+	display:inline-block;	
+	background:#15a4fa;
+	font-size:20px;
+	color:#ffffff;
+	text-align:center;
+	border-radius:3px;
+	padding:10px;
+	margin: 0 2px;
+}
+footer .social a:hover{
+	background:#2d3950;
+	transition:all;
+	transition-duration: 0.5s;
+}
+
+
+/* #Media Queries
+================================================== */
+	@media only screen and (min-width: 960px) and (max-width: 1200px) {
+		.effects .img img {
+		  display: block;
+		  width: 100%;
+		  height: auto;
+		  margin-bottom: 30px;
+		}
+		.effects .img{
+			width:33.33%;
+			float:left;
+			
+		}
+		/*#effect-6 .overlay1 {
+			  width: 91%;
+			  margin: 0 auto 30px;
+			  height: auto;
+		}*/
+		
+	}
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		#mainpart h2 {
+			  font-size: 110px;
+			  margin: 233px 0 5px;
+		}
+		#mainpart span.line{
+			width:500px;
+		}
+		#mainpart {
+			min-height:790px;
+		}
+		a.arrow {
+			margin-top:135px
+		}
+		.effects .img img {
+		  display: block;
+		  width: 100%;
+		  height: auto;
+		  margin-bottom: 30px;
+		}
+		.effects .img{
+			width:33.33%;
+			float:left;
+			
+		}
+		#effect-6 .overlay1 {
+			  width: 88%;
+			  margin: 0 auto 30px;
+			  height: auto;
+		}
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		header {
+ 			 padding: 15px 0;
+		}
+		footer p {
+			margin:0 0 20px !important;
+			text-align:center;
+			
+		}
+		footer .social{
+			text-align:center;
+		}
+		
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		
+		header nav ul li{
+			font-size:13px;
+		}
+		#mainpart{
+			min-height:600px;
+		}
+		#mainpart h2 {
+			  font-size: 80px;
+			  margin: 100px 0 5px;
+		}
+		#mainpart span.line{
+			width:340px;
+		}
+		#mainpart p {
+			  line-height: 25px;
+			  margin: 45px 0 55px;
+		}
+		#mainpart a.arrow {
+  			margin-top: 140px;
+		}
+		#threecol{
+			padding:50px 0;
+		}
+		#simple{
+			padding:50px 0;
+		}
+		#simple h3 {
+ 			 font-size: 36px;
+		}
+		#simple p {
+			  font-size: 16px;
+			  line-height: 26px;
+			  margin: 17px 10px 0;
+		}
+		#threecol figure {
+ 			 margin-bottom: 30px;
+		}
+		#_gallary{
+			padding:50px 0;
+		}
+		#gallary h3 {
+  			font-size: 36px;
+		}
+		#gallary p {
+  			margin: 15px 0 50px;
+		}
+		.effects .img img {
+			  display: block;
+			  width: 360px;
+			  height: 260;
+			  margin: 0 auto 30px;
+		}
+		/*#effect-6 .overlay1{
+			margin:0 auto;
+		}*/
+		#contact{
+			padding:50px 0;
+			min-height:630px;
+		}
+		#contact form input[type="text"] {
+			  width: 425px;
+		}
+		#contact form textarea{
+			width:425px;
+		}
+		#contact .submit{
+			width:425px;
+		}
+		footer p {
+			margin:0 0 20px !important;
+			text-align:center;
+			
+		}
+		footer .social{
+			text-align:center;
+		}
+		header nav ul li {
+			padding:0 4px;
+		}
+	}
+
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		#mainpart{
+			min-height:450px;
+		}
+		#mainpart h2 {
+			  font-size: 40px;
+			  margin: 100px 0 5px;
+		}
+		#mainpart span.line{
+			width:200px;
+		}
+		#mainpart p {
+			  line-height: 25px;
+			  margin: 30px 0 40px;
+		}
+		#mainpart a.arrow {
+  			margin-top: 70px;
+		}
+		#simple {
+			padding:30px 0;
+		}
+		#simple h3{
+			font-size:30px;
+		}
+		#simple p {
+		  font-size: 16px;
+		  line-height: 26px;
+		  margin: 17px 10px 0;
+		}
+		#threecol{
+			padding:30px 0;
+		}
+		#threecol figure{
+			margin-bottom:30px;
+		}
+		#threecol figure figcaption h4{
+			margin: 10px 0 5px;
+		}
+		#gallary{
+			padding:30px 0;
+		}
+		#gallary h3{
+			font-size:30px;
+		}
+		#gallary p{
+			  margin: 15px 0 40px;
+		}
+		.effects .img img {
+			  display: block;
+			  width: 260px;
+			  height: auto;
+			  margin: 0 auto 30px;
+		}
+		/*#effect-6 .overlay1
+		{
+			margin:0 auto;
+			width:260px;
+			height:auto;
+		}*/
+		#contact{
+			padding:30px 0;
+			min-height:600px;
+		}
+		#contact h3 {
+			font-size:30px;
+		}
+		#contact form input[type="text"] {
+			width:270px;
+			height:55px;
+		}
+		#contact form textarea {
+			width:270px;
+		}
+		#contact .submit {
+			width:270px;
+			text-align:center;
+		}
+		#contact .submit input[type="submit"]{
+			float:none;
+			margin-top:20px;
+		}
+		header .logo{
+			float:none;
+		}
+		header .logo a {
+			margin:0 auto;
+			background-size:90%;
+		}
+		header nav ul li a {
+			font-size:13px;
+		}
+		header nav ul {
+		  float: none;
+		  margin-top: 2px;
+		  text-align: center;
+		}
+		header {
+			padding:10px 0;
+		}
+		header nav ul li {
+  			padding: 0 4px;
+		}
+	}
+
+
+
+
+
+
+
